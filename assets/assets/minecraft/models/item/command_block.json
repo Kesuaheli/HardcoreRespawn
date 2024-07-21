@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/command_block",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6872
+			},
+			"model": "hardcore_respawn:item/revival_item"
+		}
+	]
+}
