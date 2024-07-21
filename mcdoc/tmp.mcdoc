@@ -1,0 +1,8 @@
+use ::java::server::util::inventory::InventoryItem
+
+struct TMP {
+	/// The players display name
+	name: string,
+	/// A placeholder for an item
+	item: InventoryItem,
+}

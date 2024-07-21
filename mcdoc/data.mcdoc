@@ -1,0 +1,7 @@
+use super::tmp::TMP
+
+/// temporay data for HardcoreRespawn
+dispatch minecraft:storage[hardcore_respawn:__tmp__] to struct {
+	/// temporay data for HardcoreRespawn
+	tmp: TMP
+}

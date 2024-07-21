@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "hardcore_respawn:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"revival_item_helper": true
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"revival_item": {}
+								},
+								"minecraft:custom_model_data": 6872,
+								"minecraft:item_name": "\"\"",
+								"minecraft:max_stack_size": 1,
+								"minecraft:rarity": "epic"
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

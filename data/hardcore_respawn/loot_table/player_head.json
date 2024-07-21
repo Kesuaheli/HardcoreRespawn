@@ -1,0 +1,19 @@
+{
+	"functions": [
+		{
+			"function": "minecraft:fill_player_head",
+			"entity": "this"
+		}
+	],
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head"
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

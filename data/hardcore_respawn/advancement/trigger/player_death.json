@@ -1,0 +1,16 @@
+{
+	"parent": "hardcore_respawn:trigger/root",
+	"criteria": {
+		"death": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"nbt": "{Health: 0f}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "hardcore_respawn:trigger/player_death"
+	}
+}
